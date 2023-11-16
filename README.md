@@ -1,10 +1,15 @@
 # Mutantes
-Julieta Sena
+Julieta A. Sena
  - julietaasena@gmail.com
  - Legajo: 51646
 
 # Desarrollo
-Se desarrollo un programa para determinar si una cadena de ADN es mutante o no. El ADN se representa como una lista de cadenas, donde cada cadena es una fila de genes. Primero defino la función isMutant(), la cual busca y cuenta la cantidad de secuencias encontradas en el adn ingresado. Luego, defino la función validar() para absorber algunos posibles errores del usuario. Por último, encontramos el código dónde se utiliza las funciones mencionas y, dependiendo del resultado, anuncia si es o no mutante.
+ Se desarrollo un programa para determinar si una cadena de ADN es mutante o no. El ADN se representa como una lista de cadenas, donde cada cadena es una fila de genes.
+ 
+ Primero defino la función isMutant(), la cual busca y cuenta la cantidad de secuencias encontradas en el adn ingresado. Luego, defino la función validar() para absorber algunos posibles errores del usuario.
+ 
+ Por último, encontramos el código que, por medio de la función validar(), solicita al usuario ingresar de a una fila de ADN (String de 6 caracteres) para ser guardadas en una lista. A continuación, utilizo dicha lista como parámetro de la función isMutant() para analizar las secuencias del ADN, dependiendo del resultado, anuncia si es o no mutante.
+ 
 ## Función isMutant(adn)
 Para empezar, se inicializa una variable "secuencia" que sirve para contar cuantas secuencias se encontraron en el adn. En caso de ser mayor a 1 la función devuelve True, caso contrario False.
 Luego utilizo 2 bucles for para cada validación de secuencia:
